@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Marvills Cleaning Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-broom"></i>
+                    <span>MARVILLS</span>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html" class="active">CONTACT</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>CONTACT US</h1>
+            <p>Get in touch with Marvills Cleaning Services</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>MARVILLS CLEANING SERVICES</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <a href="tel:0795469890">0795 469 890</a>
+                                <a href="tel:0107017429">0107 017 429</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <a href="mailto:marvills.customer.care@gmail.com">marvills.customer.care@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-buttons">
+                        <a href="https://wa.me/254795469890" target="_blank" class="social-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="#" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" target="_blank" class="social-btn facebook">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://tiktok.com/@marvills.fumigators" target="_blank" class="social-btn tiktok">
+                            <i class="fab fa-tiktok"></i>
+                            <span>TikTok</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-message">
+                    <h2>LET'S MAKE YOUR SPACE SPARKLE.</h2>
+                    <p>Have a cleaning project or need specialized assistance? Get in touch with Marvills Cleaning Services today. Our team is ready to help you with all your cleaning and pest control needs.</p>
+                    <a href="#booking" class="btn-primary">BOOK NOW</a>
+                </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="map-section">
+                <h2>OUR LOCATION</h2>
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Nairobi, Kenya</h3>
+                        <p>We serve clients throughout Nairobi and surrounding areas</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-section">
+                <h2>SEND US A MESSAGE</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="contactName">Full Name</label>
+                            <input type="text" id="contactName" name="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone">Phone Number</label>
+                            <input type="tel" id="contactPhone" name="contactPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email Address</label>
+                            <input type="email" id="contactEmail" name="contactEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject</label>
+                            <input type="text" id="contactSubject" name="contactSubject" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="contactMessage">Message</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="6" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">SEND MESSAGE</button>
+                </form>
+                <div class="success-message" id="contactSuccessMessage" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Message Sent Successfully!</h3>
+                    <p>Thank you for contacting Marvills Cleaning Services. We will get back to you shortly.</p>
+                    <button class="btn-primary" onclick="resetContactForm()">SEND ANOTHER MESSAGE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>WHAT OUR CLIENTS SAY</h2>
+            <p>Trusted by homes and businesses across Nairobi</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Marvills Cleaning Services transformed our office! The team was professional, thorough, and left our workspace spotless. Highly recommend their services."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Mwangi</h4>
+                            <p>Office Manager, Nairobi CBD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"After our home renovation, Marvills handled the post-construction cleaning perfectly. They removed all dust and debris efficiently. Amazing service!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>James Kamau</h4>
+                            <p>Homeowner, Westlands</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Their fumigation services saved our home from a pest problem. Professional, safe, and effective. I've been a loyal customer for 2 years now."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Grace Wanjiku</h4>
+                            <p>Restaurant Owner, Kilimani</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section" id="booking">
+        <div class="container">
+            <h2>BOOK YOUR SERVICE TODAY</h2>
+            <form class="booking-form" id="bookingForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Choose a service</option>
+                            <option value="post-construction">Post-Construction Cleaning</option>
+                            <option value="hotel-office">Hotel & Office Cleaning</option>
+                            <option value="mattress-carpet">Mattress & Carpet Cleaning</option>
+                            <option value="interior-car">Interior Car Cleaning</option>
+                            <option value="house-apartment">House & Apartment Cleaning</option>
+                            <option value="fumigation">Interior Fumigation Services</option>
+                            <option value="sofa">Sofa Cleaning</option>
+                            <option value="snake-reptile">Snake & Reptile Control</option>
+                            <option value="specialized">Specialized Cleaning</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Additional Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="btn-primary">SUBMIT BOOKING</button>
+                    <a href="https://wa.me/254795469890?text=Hello%20Marvills%20Cleaning%20Services,%20I%20would%20like%20to%20book%20a%20service." target="_blank" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        BOOK VIA WHATSAPP
+                    </a>
+                </div>
+            </form>
+            <div class="success-message" id="successMessage" style="display: none;">
+                <i class="fas fa-check-circle"></i>
+                <h3>Booking Submitted Successfully!</h3>
+                <p>Thank you for choosing Marvills Cleaning Services. We will contact you shortly to confirm your booking.</p>
+                <button class="btn-primary" onclick="resetForm()">BOOK ANOTHER SERVICE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>MARVILLS CLEANING SERVICES</h3>
+                    <p>Professional cleaning and specialized environmental solutions you can trust.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/254795469890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://tiktok.com/@marvills.fumigators" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">House Cleaning</a></li>
+                        <li><a href="services.html">Office Cleaning</a></li>
+                        <li><a href="services.html">Sofa Cleaning</a></li>
+                        <li><a href="services.html">Carpet & Mattress Cleaning</a></li>
+                        <li><a href="services.html">Fumigation</a></li>
+                        <li><a href="services.html">Snake & Reptile Control</a></li>
+                        <li><a href="services.html">Post-Construction Cleaning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="tel:0795469890">0795 469 890</a></li>
+                        <li><a href="tel:0107017429">0107 017 429</a></li>
+                        <li><a href="mailto:marvills.customer.care@gmail.com">marvills.customer.care@gmail.com</a></li>
+                        <li>Nairobi, Kenya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Marvills Cleaning Services. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/254795469890?text=Hello%20Marvills%20Cleaning%20Services,%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
